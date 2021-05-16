@@ -1,4 +1,25 @@
-body
+
+nav
 {
-background-color: red;
+    background-color:red;
+    height:40px;
+    padding:3px 0px 9px 0px;
+    margin:0px auto 0px auto;
+    text-align:center;
+    
 }
+nav li
+{
+    display:inline;
+}
+
+li
+{
+    padding:0px;
+    margin:0px 10px;
+    font-size:20px;
+    text-transform:uppercase;
+    color:white;
+
+}
+
