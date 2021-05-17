@@ -22,4 +22,17 @@ li
     color:white;
 
 }
+#title{
+    position:absolute;
+    margin:0px auto 0px auto;
+    top:30px;
+    left:850px;
+    font-size:45px;
+    font-weight: bold;
+    font-style:italic;
+    color:white;
+    text-shadow:3px 3px black;;
+    
+
+}
 
