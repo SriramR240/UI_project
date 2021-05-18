@@ -30,3 +30,11 @@ h2{
 article li{
     font-size:20px;
 }
+
+table{
+    position:relative;
+    left:50px;
+}
+thead{
+    background-color:rgba(0,0,0,0.4);
+}
