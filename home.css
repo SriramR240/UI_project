@@ -11,10 +11,6 @@ nav
 nav li
 {
     display:inline;
-}
-
-li
-{
     padding:0px;
     margin:0px 10px;
     font-size:20px;
@@ -48,12 +44,33 @@ article{
     width:60%;
     position:relative;
     margin:0px auto 0px auto;
-    border:2px solid black;;
-}
-h1{
-    font-size:45px;
-    text-align:center;
+    border-width:0px 5px 0px 5px;
+    border-color:rgba(0,0,0,0.4);
+    border-style:inset;
 }
 
+
+h1{
+    font-size:35px;
+    text-align:center;
+}
+p{
+    font-size:20px;
+    font-family:Helvetica,sans-serif;
+    padding:0px 10px 0px 10px;;
+}
+blockquote{
+    font-size:22px;
+    font-weight:bold;
+
+}
+h2{
+    font-size:25px;
+    padding:0px 10px 0px 10px;
+}
+
+article li{
+    font-size:20px;
+}
 
 
