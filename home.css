@@ -19,10 +19,13 @@ nav li
 
 }
 #title{
-    position:absolute;
+    
+    position: absolute;
     margin:0px auto 0px auto;
+    left:0;
+    right:0;
     top:30px;
-    left:850px;
+    text-align: center;
     font-size:45px;
     font-weight: bold;
     font-style:italic;
@@ -41,5 +44,8 @@ a:active{
     color:blue;
 }
 
+#current{
+    color:purple;
+}
 
 
