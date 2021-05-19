@@ -25,6 +25,7 @@ blockquote{
 h2{
     font-size:25px;
     padding:0px 10px 0px 10px;
+    
 }
 
 article li{
@@ -37,4 +38,15 @@ table{
 }
 thead{
     background-color:rgba(0,0,0,0.4);
+}
+
+#sidebar{
+    position:fixed;
+    left:50px;
+    top:250px;
+    color:white;
+    background-color:red;
+    width: 14vw;
+    height: 10vh;
+    
 }
