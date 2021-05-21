@@ -1,0 +1,95 @@
+.thumbnail
+{
+	border-radius: 25px;
+	position: relative;
+	height: 200px;
+	width: 300px;
+}
+
+thead
+{
+	text-align: center;
+    font-size:45px;
+    font-weight: bold;
+    font-style:italic;
+    color:white;
+    text-shadow:3px 3px black;
+}
+
+table
+{
+	padding-left: 50px;
+	font-size:20px;
+	border-radius: 50px;
+	border-color: black
+	width: 100%;
+	background-color: rgba(255,0,0,0.75);
+	position: relative;
+}
+tbody img:hover{
+	transition: transform .5s ease;
+	transform: scale(1.05);
+}
+td { 
+  overflow: hidden;
+  background: rgba(255,0,0,0.25)
+  border: solid;
+  border-radius: 25px;
+  border-width: 1px 1px;
+}
+
+article{
+    width:80%;
+    position:relative;
+    margin:0px auto 0px auto;
+    border-width:5px 5px 5px 5px;
+    border-color:rgba(0,0,0,0.5);
+    border-style:inset;
+}
+
+div#tab article{
+	display:none;
+}
+
+div#tab article.article1:target
+{
+	display: block;
+}
+
+div#tab article.article2:target
+{
+	display: block;
+}
+div#tab article.article3:target
+{
+	display: block;
+}
+figcaption
+{
+	font-size:20px;
+}
+#reasons, blockquote
+{
+	color: grey;
+	font-size:25px;
+}
+
+h1
+{
+	font-family: "Audiowide", sans-serif;
+    font-size:35px;
+    text-align:center;
+}
+h2
+{
+	font-family: "Audiowide", sans-serif;
+	font-size:30px;
+	padding:0px 10px 0px 10px;
+}
+p{
+    font-size:25px;
+    font-family:Georgia,serif;
+    padding:0px 10px 0px 10px;
+    text-indent: 100px;
+    text-align: justify;
+}
