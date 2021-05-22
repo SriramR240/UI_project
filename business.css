@@ -16,7 +16,6 @@ thead
 }
 table
 {
-	padding-left: 50px;
 	font-size:20px;
 	border-radius: 50px;
 	border-color: black
@@ -31,11 +30,12 @@ tbody img:hover
 }
 td 
 { 
-  overflow: hidden;
-  background: rgba(255,0,0,0.25)
-  border: solid;
-  border-radius: 25px;
-  border-width: 1px 1px;
+  	text-align: justify-all;
+  	overflow: hidden;
+  	background: rgba(255,0,0,0.25)
+  	border: solid;
+  	border-radius: 25px;
+  	border-width: 1px 1px;
 }
 article{
     width:80%;
