@@ -5,7 +5,7 @@
 	height: 200px;
 	width: 300px;
 }
-thead
+#carousel thead
 {
 	text-align: center;
     font-size:45px;
@@ -14,7 +14,7 @@ thead
     color:white;
     text-shadow:3px 3px black;
 }
-table
+#carousel 
 {
 	font-size:20px;
 	border-radius: 50px;
@@ -23,12 +23,12 @@ table
 	background-color: rgba(255,0,0,0.75);
 	position: relative;
 }
-tbody img:hover
+#carousel tbody img:hover
 {
 	transition: transform .5s ease;
 	transform: scale(1.05);
 }
-td 
+#carousel td 
 { 
   	text-align: justify-all;
   	overflow: hidden;
@@ -44,6 +44,9 @@ article{
     border-width:5px 5px 5px 5px;
     border-color:rgba(0,0,0,0.5);
     border-style:inset;
+}
+.img{
+	width: 60%;
 }
 div#tab article
 {
@@ -65,10 +68,36 @@ figcaption
 {
 	font-size:20px;
 }
-#reasons, blockquote
+blockquote
 {
 	color: grey;
 	font-size:25px;
+}
+
+#gain, #lose{
+	margin-left: 90px;
+	margin-right: 90px;
+	font-family: verdana;
+	border-collapse: collapse;
+	font-size: 20px;
+	border-spacing: 20px;
+	text-align: center;
+}
+caption{
+	font-size: 25px;
+}
+#gain thead{
+	background-color: rgba(0, 255, 0, 0.5);
+}
+#lose thead{
+	background-color: rgba(255, 0, 0, 0.5);
+}
+#gain{
+	float: left;
+	background-color: rgba(0, 255, 0, 0.25);
+}
+#lose{
+	background-color: rgba(255, 0, 0, 0.35);
 }
 h1
 {
@@ -82,7 +111,15 @@ h2
 	font-size:30px;
 	padding:0px 10px 0px 10px;
 }
-p{
+h3, #hl, blockquote
+{
+	font-size: 25px;
+	margin-left: 10px;
+	font-family:Georgia,serif;
+	color: rgba(0, 0, 0, 0.75);
+}
+p
+{
     font-size:25px;
     font-family:Georgia,serif;
     padding:0px 10px 0px 10px;
