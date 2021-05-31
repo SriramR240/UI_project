@@ -1,7 +1,6 @@
 .thumbnail
 {
 	border-radius: 25px;
-	position: relative;
 	height: 200px;
 	width: 300px;
 }
@@ -20,7 +19,7 @@
 	border-radius: 50px;
 	border-color: black
 	width: 100%;
-	background-color: rgba(255,0,0,0.75);
+	background-color: rgba(255,0,0,0.8);
 	position: relative;
 }
 #carousel tbody img:hover
@@ -30,11 +29,7 @@
 }
 #carousel td 
 { 
-  	text-align: justify-all;
   	overflow: hidden;
-  	background: rgba(255,0,0,0.25)
-  	border: solid;
-  	border-radius: 25px;
   	border-width: 1px 1px;
 }
 article{
@@ -44,9 +39,6 @@ article{
     border-width:5px 5px 5px 5px;
     border-color:rgba(0,0,0,0.5);
     border-style:inset;
-}
-.img{
-	width: 60%;
 }
 div#tab article
 {
@@ -127,3 +119,16 @@ p
     text-align: justify;
 }
 
+input{ 
+ font-size: 20px;
+ background: rgba(255, 0, 0, 0.75);
+ color:#ffffff; 
+ padding: 15px 20px;
+ border: 2px solid #00000f;
+ border-radius: 10px;
+ margin-right: 80px;
+ margin-left: 80px;
+}
+input:hover {
+ box-shadow: 0 8px 21px 0 grey;
+}
