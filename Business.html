@@ -5,6 +5,7 @@
         <title>Business News</title>
         <meta charset='UTF-8'>
         <link href='home.css' rel='stylesheet' type='text/css' />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href='business.css' rel='stylesheet' type='text/css' />
     </head>
     <body>
@@ -278,7 +279,7 @@
                 <h2>What's Next?</h2>
                 <p>A crackdown by one of the world’s biggest economy notwithstanding, those in the ecosystem have termed this decline as a short-term correction.</p> <blockquote><em>“A nearly 40% dip in the bitcoin price from its all-time high looks dramatic but is normal in many volatile markets, including crypto, especially after such a large rally. Such corrections are mainly due to short-term traders taking profits. Long-term value investors might call these lower prices a buying opportunity, as MicroStrategy just did,”</em> -Avinash Shekhar, Co-CEO of ZebPay, an India-based crypto exchange</blockquote><hr><br>
 
-                <div align="justify">
+                <div class="buttons" align="justify">
                     <a href=#article2><input type=button value='&laquo; Previous Article'></a>
                     <a href=#article3><input type=button value='&uarr; Go Back to Top'></a>
                     <a href=#article1><input type=button value='Next Article &raquo;'></a>
@@ -287,6 +288,52 @@
             </article>
  
         </div>
-        
+
+        <footer>
+            <div class="footer">
+                <div class="left box" width=33%>
+                    <h2>About us</h2><hr>
+                    <div class="content">   
+                        <p>
+                        Lorem ipsum
+                        </p>
+                    </div>
+                    <h2>Social Media</h2><hr>
+                    <div class="icons">
+                        <a href="https://www.facebook.com/" target='_blank' class="fa fa-facebook"></a>
+                        <a href="https://www.twitter.com/" class="fa fa-twitter"></a>
+                        <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+                        <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+                    </div>
+               </div>
+               <div class="center box" width=33%>
+                    <h2>Useful Links</h2><hr>
+               </div>
+               <div class="right box">
+                   <h2>Subscribe to our Newsletter</h2><hr>
+                   <form onsubmit="sys()">
+                    <div>Name *</div>
+                    <div class="ipt">
+                        <input type="text" required="">    
+                    </div>
+                    <div>Email *</div>
+                    <div class="ipt">
+                        <input type="Email" required="">
+                    </div>
+                    <div class="btn">
+                        <button type="Submit">Subscribe</button>    
+                    </div>
+                   </form>
+               </div>
+            </div>
+        <div class="crs" align="center"> Copyright © 2021 Compass News <br>
+                Designed, Developed & Maintained By ASE students    
+        </div>
+        <script type="text/javascript">
+            function sys(){
+                alert("Newsletter Subscribed")
+            }
+        </script>
+        </footer>
     </body>
-</html>
+</html> 

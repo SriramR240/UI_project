@@ -37,7 +37,7 @@
 article{
     width:80%;
     position:relative;
-    margin:0px auto 0px auto;
+    margin:0px auto 50px auto;
     border-width:5px 5px 5px 5px;
     border-color:rgba(0,0,0,0.5);
     border-style:inset;
@@ -121,7 +121,7 @@ p
     text-align: justify;
 }
 
-input{ 
+article input{ 
  font-size: 20px;
  background: rgba(255, 0, 0, 0.75);
  color:#ffffff; 
@@ -131,6 +131,8 @@ input{
  margin-right: 80px;
  margin-left: 80px;
 }
-input:hover {
+article input:hover {
  box-shadow: 0 8px 21px 0 grey;
 }
+
+
