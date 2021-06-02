@@ -1,0 +1,32 @@
+.Feedback{
+	margin-left: 20px;
+	font-size: 20px;	
+}
+form{
+	margin-left: 100px	;
+}
+.Feedback input{
+	height: 30px;
+	width: 40%;
+}
+.Feedback textarea{
+	height: 50%;
+	width: 40%;
+}
+.Feedback select{
+	height: 30px;
+	width: 40%;
+}
+.Feedback button{
+    height: 45px;
+    margin-top: 10px;
+    width: 40%;
+    border: none;
+    background: #f12020;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+.Feedback button:hover{
+    background: black;
+}

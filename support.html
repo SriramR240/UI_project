@@ -4,6 +4,7 @@
         <title>Compass News</title>
         <meta charset='UTF-8'>
         <link href='home.css' rel='stylesheet' type='text/css' />
+        <link href='support.css' rel='stylesheet' type='text/css' />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
@@ -25,10 +26,42 @@
         </header>
 
         <div class="Feedback">
-        <h2>FEEDBACK</h2>
+        <h2>FEEDBACK</h2><br><br>
+        <form method="post" onsubmit="sent()" id="FeedbackForm">
 
-        </div>
+        Your name:<span  style="color:red;">*</span><br>
+        <input type="text" name="name" required>
+        <br>
+   
+        Your e-mail address:<span  style="color:red;">*</span><br>
+        <input type="email" name="email" required>
+        <br>
+ 
+        Subject: <span  style="color:red;">*</span><br>
+        <input type="text" name="subject" required>
+   
+        <br>
+        Category: <span  style="color:red;">*</span><br>
+        <select name="category" required>
+            <option value="" >-Select-</option>
+            <option value="contact_editor" >Contact Editor</option>
+            <option value="related_to_website" >Related To Website</option>
+            <option value="newspaper_sub_bengaluru" >Newspaper Subscription</option>
+        </select> 
+        <br>
+        Message:<span  style="color:red;">*</span> <br>
+        <textarea rows="5" cols="40" class="form-control" required></textarea>
+        <br>
+        <button type="Submit">Submit</button>
+        </form><br><br>
+    
+    <script type="text/javascript">
+            function sent(){
+                alert("Feedback sent")
+            }
+    </script>
 
+    </div>
         <footer>
             <div class="footer">
                 <div class="left box" width=33%>
