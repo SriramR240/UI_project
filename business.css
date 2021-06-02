@@ -1,0 +1,138 @@
+.thumbnail
+{
+	border-radius: 25px;
+	height: 200px;
+	width: 300px;
+}
+.img{
+	width: 60%;
+}
+#carousel thead
+{
+	text-align: center;
+    font-size:45px;
+    font-weight: bold;
+    font-style:italic;
+    color:white;
+    text-shadow:3px 3px black;
+}
+#carousel 
+{
+	font-size:20px;
+	border-radius: 50px;
+	border-color: black;	
+	background-color: rgba(255,0,0,0.8);
+	position: relative;
+}
+#carousel tbody img:hover
+{
+	transition: transform .5s ease;
+	transform: scale(1.05);
+}
+#carousel td 
+{ 
+  	overflow: hidden;
+  	border-width: 1px 1px;
+}
+article{
+    width:80%;
+    position:relative;
+    margin:0px auto 50px auto;
+    border-width:5px 5px 5px 5px;
+    border-color:rgba(0,0,0,0.5);
+    border-style:inset;
+}
+div#tab article
+{
+	display:none;
+}
+div#tab article.article1:target
+{
+	display: block;
+}
+div#tab article.article2:target
+{
+	display: block;
+}
+div#tab article.article3:target
+{
+	display: block;
+}
+figcaption
+{
+	font-size:20px;
+}
+blockquote
+{
+	color: grey;
+	font-size:25px;
+}
+
+#gain, #lose{
+	margin-left: 90px;
+	margin-right: 90px;
+	font-family: verdana;
+	border-collapse: collapse;
+	font-size: 20px;
+	border-spacing: 20px;
+	text-align: center;
+}
+caption{
+	font-size: 25px;
+}
+#gain thead{
+	background-color: rgba(0, 255, 0, 0.5);
+}
+#lose thead{
+	background-color: rgba(255, 0, 0, 0.5);
+}
+#gain{
+	float: left;
+	background-color: rgba(0, 255, 0, 0.25);
+}
+#lose{
+	background-color: rgba(255, 0, 0, 0.35);
+}
+h1
+{
+	font-family: "Audiowide", sans-serif;
+    font-size:35px;
+    text-align:center;
+}
+h2
+{
+	font-family: "Audiowide", sans-serif;
+	font-size:30px;
+	padding:0px 10px 0px 10px;
+}
+h3, #hl, blockquote
+{
+	font-size: 25px;
+	margin-left: 10px;
+	font-family:Georgia,serif;
+	color: rgba(0, 0, 0, 0.75);
+}
+article p
+{
+    font-size:25px;
+    font-family:Georgia,serif;
+    padding:0px 10px 0px 10px;
+    text-indent: 100px;
+    text-align: justify;
+}
+
+article input{ 
+ font-size: 20px;
+ background: rgba(255, 0, 0, 0.75);
+ color:#ffffff; 
+ padding: 15px 20px;
+ border: 2px solid #00000f;
+ border-radius: 10px;
+ margin-right: 80px;
+ margin-left: 80px;
+}
+article input:hover {
+ box-shadow: 0 8px 21px 0 grey;
+}
+
+
