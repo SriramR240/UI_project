@@ -18,3 +18,16 @@ h2{
     text-decoration: none;
     color:black;
 }
+
+#articles{
+    
+    position:relative;
+    bottom:793px;
+    float:right;
+    width:30%;
+}
+
+
+pre{
+    margin-top: 2px;;
+}
