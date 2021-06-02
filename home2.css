@@ -21,9 +21,10 @@ h2{
 
 #articles{
     
-    position:relative;
-    bottom:793px;
-    float:right;
+    position:absolute;
+    left:1300px;
+    top:185px;
+
     width:30%;
 }
 
