@@ -274,14 +274,14 @@
                </div>
                <div class="right box">
                    <h2>Subscribe to our Newsletter</h2><hr>
-                   <form onsubmit="return alpha(document.getElementById('username2'),2)">
+                   <form onsubmit="return alpha(document.getElementById('username2'),document.getElementById('email2'),2)">
                     <div>Name *</div>
                     <div class="ipt">
                         <input type="text" id='username2' required>    
                     </div>
                     <div>Email *</div>
                     <div class="ipt">
-                        <input type="Email" required>
+                        <input type="Email" id='email2' required>
                     </div>
                     <div class="btn">
                         <button type="Submit">Subscribe</button>    

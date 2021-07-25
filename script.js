@@ -1,12 +1,20 @@
-function alpha(inputtxt,option)
+function alpha(inputtxt,inputemail,option)
     { 
         console.log(inputtxt.value);
+        console.log(inputemail.value);
+        var atpos = inputemail.value.indexOf("@");
+        var dotpos = inputemail.value.lastIndexOf(".");
         var letters = /[^a-zA-z\s]/;
         if(inputtxt.value.match(letters))
         {  
             alert('name of the user should consists of alphabets only!');
             return false; 
                 
+        }
+        else if  (atpos < 1 || ( (dotpos - atpos) < 2 ))
+        {
+            alert("invalid email address!");
+            return false;
         }
         else
         {

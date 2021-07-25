@@ -28,14 +28,14 @@
         
         <div class="Feedback">
         <h2 style="text-align: center;">FEEDBACK</h2>
-        <form method="post" onsubmit="return alpha(document.getElementById('username'),1)" id="FeedbackForm">
+        <form method="post" onsubmit="return alpha(document.getElementById('username'),document.getElementById('Email'),1)" id="FeedbackForm">
 
         Name:<span  style="color:red;">*</span><br>
         <input type="text" id='username' name="name" required placeholder='your name(letters only)' >
         <br>
    
         E-mail address:<span  style="color:red;">*</span><br>
-        <input type="email" name="email" required placeholder="Email Address">
+        <input type="email" id='Email' name="email" required placeholder="Email Address">
         <br>
  
         Subject: <span  style="color:red;">*</span><br>
@@ -91,14 +91,14 @@
                </div>
                <div class="right box">
                    <h2>Subscribe to our Newsletter</h2><hr>
-                   <form onsubmit="return alpha(document.getElementById('username2'),2)">
+                   <form onsubmit="return alpha(document.getElementById('username2'),document.getElementById('email2'),2)">
                     <div>Name *</div>
                     <div class="ipt">
                         <input type="text" id='username2' required>    
                     </div>
                     <div>Email *</div>
                     <div class="ipt">
-                        <input type="Email" required>
+                        <input type="Email" id='email2' required>
                     </div>
                     <div class="btn">
                         <button type="Submit">Subscribe</button>    
