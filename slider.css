@@ -11,4 +11,10 @@
 {
     font-size: 20px;
     text-shadow: -1px -1px 0px  black;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.item img
+{
+    filter: grayscale(20%);
 }
