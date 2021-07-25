@@ -1,26 +1,37 @@
 .Feedback{
-	margin-left: 20px;
+	margin:0px auto 0px auto;
+    width:30%;
+    position:relative;
 	font-size: 20px;	
+    border:2px black solid;
 }
 form{
 	margin-left: 100px	;
 }
 .Feedback input{
 	height: 30px;
-	width: 40%;
+	width: 70%;
+    margin:10px;
 }
+.Feedback input:focus,.Feedback textarea:focus
+{
+    background-color:  #ADD8E6;
+}
+
 .Feedback textarea{
 	height: 50%;
-	width: 40%;
+	width: 90%;
+    margin:10px;
 }
+
 .Feedback select{
 	height: 30px;
-	width: 40%;
+	width: 90%;
 }
 .Feedback button{
     height: 45px;
     margin-top: 10px;
-    width: 40%;
+    width: 90%;
     border: none;
     background: #f12020;
     color: white;

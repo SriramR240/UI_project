@@ -1,5 +1,5 @@
 article{
-    width:80%;
+    width:60%;
     position:relative;
     margin:0px auto 0px auto;
     border-width:0px 5px 0px 5px;
@@ -40,3 +40,13 @@ thead{
     background-color:rgba(0,0,0,0.4);
 }
 
+#sidebar{
+    position:fixed;
+    left:50px;
+    top:250px;
+    color:white;
+    background-color:red;
+    width: 14vw;
+    height: 10vh;
+    
+}

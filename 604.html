@@ -3,8 +3,9 @@
     <head>
         <title>Entertainment News</title>
         <meta charset='UTF-8'>
-        <link href='home.css' rel='stylesheet' type='text/css' />
+        <link href='G13_indexa.css' rel='stylesheet' type='text/css' />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="script.js"></script>
         
     </head>
     <body>
@@ -17,12 +18,12 @@
                 </div>
 
                 <ul>
-                    <li> <a href="home.html">Home </a> </li>
-                    <li> <a href="Politics.html">Politics</a></li>
-                    <li> <a href="Business.html">Business </a> </li>
-                    <li> <a href="science/Science.html">Science </a> </li>
+                    <li> <a href="G13_index.html">Home </a> </li>
+                    <li> <a href="601.html">Politics</a></li>
+                    <li> <a href="602.html">Business </a> </li>
+                    <li> <a href="603.html">Science </a> </li>
                     <li> <a id="current" href=#>Entertainment</a> </li>
-                    <li> <a href="Sports.html">Sports </a> </li>
+                    <li> <a href="605a.html">Sports </a> </li>
                 </ul>
             </nav>
         </header>
@@ -46,8 +47,9 @@
             </tfoot>
         </table><br>
             <div id="tab">
-    
-            <article id="article1" class="article1">
+                
+            <article id="article1" class="article1" style="font-size: large;">
+
                 <h1>Oscars 2021: When and where to watch 93rd Academy Awards in India</h1>
 <h3>Edited by kavin   / Updated: May 25, 2021, 6:13 IST</h3>
                 <p>Oscars 2021 is knocking at our doorstep and will take place Sunday, April 25, 2021. The ceremony will be fully in-person with social distancing rules intact and will be conducted at two locations in Los Angeles: Union Station and Dolby Theatre. Here's how you can watch the 93rd Academy Awards live in India.</p>
@@ -128,6 +130,7 @@
             </article>
  
         </div>
+        
         <footer>
             <div class="footer">
                 <div class="left box" width=33%>
@@ -150,25 +153,25 @@
                <div class="center box" width=33%>
                     <h2>Useful Links</h2><hr>
                     <ul type="none">
-                        <li> <a href="home.html">Home </a> </li>
-                        <li> <a href="Politics.html">Politics</a></li>
-                        <li> <a href="Business.html">Business </a> </li>
-                        <li> <a href="science/Science.html">Science </a> </li>
-                        <li> <a href="Entertainment.html">Entertainment</a> </li>
-                        <li> <a href="Sports.html">Sports </a> </li>
-                        <li> <a href="Support.html">Support </a> </li>
+                        <li> <a href="G13_index.html">Home </a> </li>
+                        <li> <a href="601.html">Politics</a></li>
+                        <li> <a href="602.html">Business </a> </li>
+                        <li> <a href="603.html">Science </a> </li>
+                        <li> <a href="604.html">Entertainment</a> </li>
+                        <li> <a href="605a.html">Sports </a> </li>
+                        <li> <a href="607.html">Support </a> </li>
                     </ul>
                </div>
                <div class="right box">
                    <h2>Subscribe to our Newsletter</h2><hr>
-                   <form onsubmit="sys()">
+                   <form onsubmit="return alpha(document.getElementById('username2'),2)">
                     <div>Name *</div>
                     <div class="ipt">
-                        <input type="text" required="">    
+                        <input type="text" id='username2' required>    
                     </div>
                     <div>Email *</div>
                     <div class="ipt">
-                        <input type="Email" required="">
+                        <input type="Email" required>
                     </div>
                     <div class="btn">
                         <button type="Submit">Subscribe</button>    
@@ -179,11 +182,7 @@
         <div class="crs" align="center"> Copyright © 2021 Compass News <br>
                 Designed, Developed & Maintained By ASE students    
         </div>
-        <script type="text/javascript">
-            function sys(){
-                alert("Newsletter Subscribed")
-            }
-        </script>
+
         </footer>
     </body>
 </html>

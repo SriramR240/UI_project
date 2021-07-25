@@ -3,9 +3,10 @@
     <head>
         <title>Compass News</title>
         <meta charset='UTF-8'>
-        <link href='home.css' rel='stylesheet' type='text/css' />
-        <link href='support.css' rel='stylesheet' type='text/css' />
+        <link href='G13_indexa.css' rel='stylesheet' type='text/css' />
+        <link href='607.css' rel='stylesheet' type='text/css' />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src='script.js'></script>
     </head>
     <body>
         <header height=160px>
@@ -15,34 +16,34 @@
             </div>
             <nav>
                 <ul>
-                    <li> <a href="home.html">Home </a> </li>
-                    <li> <a href="Politics.html">Politics</a></li>
-                    <li> <a href="Business.html">Business </a> </li>
-                    <li> <a href="science/Science.html">Science </a> </li>
-                    <li> <a href="Entertainment.html">Entertainment</a> </li>
-                    <li> <a href="Sports.html">Sports </a> </li>
+                    <li> <a href="G13_index.html">Home </a> </li>
+                    <li> <a href="601.html">Politics</a></li>
+                    <li> <a href="602.html">Business </a> </li>
+                    <li> <a href="603.html">Science </a> </li>
+                    <li> <a href="604.html">Entertainment</a> </li>
+                    <li> <a href="605a.html">Sports </a> </li>
                 </ul>
             </nav>
         </header>
-
+        
         <div class="Feedback">
-        <h2>FEEDBACK</h2><br><br>
-        <form method="post" onsubmit="sent()" id="FeedbackForm">
+        <h2 style="text-align: center;">FEEDBACK</h2>
+        <form method="post" onsubmit="return alpha(document.getElementById('username'),1)" id="FeedbackForm">
 
-        Your name:<span  style="color:red;">*</span><br>
-        <input type="text" name="name" required>
+        Name:<span  style="color:red;">*</span><br>
+        <input type="text" id='username' name="name" required placeholder='your name(letters only)' >
         <br>
    
-        Your e-mail address:<span  style="color:red;">*</span><br>
-        <input type="email" name="email" required>
+        E-mail address:<span  style="color:red;">*</span><br>
+        <input type="email" name="email" required placeholder="Email Address">
         <br>
  
         Subject: <span  style="color:red;">*</span><br>
-        <input type="text" name="subject" required>
+        <input type="text" name="subject" required placeholder='Descriptive Subject'>
    
         <br>
         Category: <span  style="color:red;">*</span><br>
-        <select name="category" required>
+        <select style="margin:10px;"name="category" required>
             <option value="" >-Select-</option>
             <option value="contact_editor" >Contact Editor</option>
             <option value="related_to_website" >Related To Website</option>
@@ -50,18 +51,13 @@
         </select> 
         <br>
         Message:<span  style="color:red;">*</span> <br>
-        <textarea rows="5" cols="40" class="form-control" required></textarea>
+        <textarea rows="5" cols="40" class="form-control" required placeholder='Type your message here'></textarea>
         <br>
         <button type="Submit">Submit</button>
         </form><br><br>
-    
-    <script type="text/javascript">
-            function sent(){
-                alert("Feedback sent")
-            }
-    </script>
+        </div>
 
-    </div>
+
         <footer>
             <div class="footer">
                 <div class="left box" width=33%>
@@ -84,25 +80,25 @@
                <div class="center box" width=33%>
                     <h2>Useful Links</h2><hr>
                     <ul type="none">
-                        <li> <a href="home.html">Home </a> </li>
-                        <li> <a href="Politics.html">Politics</a></li>
-                        <li> <a href="Business.html">Business </a> </li>
-                        <li> <a href="science/Science.html">Science </a> </li>
-                        <li> <a href="Entertainment.html">Entertainment</a> </li>
-                        <li> <a href="Sports.html">Sports </a> </li>
-                        <li> <a href="Support.html">Support </a> </li>
+                        <li> <a href="G13_index.html">Home </a> </li>
+                        <li> <a href="601.html">Politics</a></li>
+                        <li> <a href="602.html">Business </a> </li>
+                        <li> <a href="603.html">Science </a> </li>
+                        <li> <a href="604.html">Entertainment</a> </li>
+                        <li> <a href="605a.html">Sports </a> </li>
+                        <li> <a href="607.html">Support </a> </li>
                     </ul>
                </div>
                <div class="right box">
                    <h2>Subscribe to our Newsletter</h2><hr>
-                   <form onsubmit="sys()">
+                   <form onsubmit="return alpha(document.getElementById('username2'),2)">
                     <div>Name *</div>
                     <div class="ipt">
-                        <input type="text" required="">    
+                        <input type="text" id='username2' required>    
                     </div>
                     <div>Email *</div>
                     <div class="ipt">
-                        <input type="Email" required="">
+                        <input type="Email" required>
                     </div>
                     <div class="btn">
                         <button type="Submit">Subscribe</button>    
@@ -113,11 +109,7 @@
         <div class="crs" align="center"> Copyright © 2021 Compass News <br>
                 Designed, Developed & Maintained By ASE students    
         </div>
-        <script type="text/javascript">
-            function sys(){
-                alert("Newsletter Subscribed")
-            }
-        </script>
+
         </footer>
     </body>
 </html>

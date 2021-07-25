@@ -15,6 +15,7 @@ nav li
     font-size:20px;
     text-transform:uppercase;
     color:white;
+    
 
 }
 #title{
@@ -48,12 +49,12 @@ a:active{
 }
 
 .footer{
-    bottom: 0px;   
+     
     color: white;
     width: 100%;
     background: rgb(17, 17, 17);
     display: flex;
-    position: relative;
+    
 }
 footer .box{
     flex-basis: 50%;
@@ -94,7 +95,9 @@ footer hr{
     margin-top: 10px;
     color: white;
     font-size: 20px;
+
 }   
+
 .right form button{
     height: 45px;
     margin-top: 10px;
@@ -117,4 +120,5 @@ footer hr{
     background: rgba(255, 0, 0,1);
     position: relative;
 }
+
 
