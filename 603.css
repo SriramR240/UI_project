@@ -5,8 +5,12 @@ article{
     border-width:0px 5px 0px 5px;
     border-color:rgba(0,0,0,0.4);
     border-style:inset;
+    
 }
 
+#a1,#a2,#a3{
+    display: none;
+}
 
 h1{
     font-size:35px;
@@ -49,4 +53,20 @@ thead{
     width: 14vw;
     height: 10vh;
     
+}
+
+figcaption
+{
+    text-align: center;
+}
+
+.left
+{
+    float:left;
+    
+}
+
+.right
+{
+    float:right;
 }

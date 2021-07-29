@@ -30,3 +30,10 @@ function alpha(inputtxt,inputemail,option)
         }
     }
 
+
+function change(x)
+{
+    console.log("hello");
+    document.getElementById('mainframe').innerHTML=document.getElementById(x).innerHTML;
+    
+}

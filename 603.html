@@ -7,7 +7,7 @@
         <link href='603.css' rel='stylesheet' type='text/css' />
         <script src="script.js"></script>
     </head>
-    <body>
+    <body onload="change('a1')">
         <header height=160px>
             <img alt='' src='images/compass3.jpg' width=1902px height=120px/>
             
@@ -36,12 +36,18 @@
                 <td>Articles in this page</td>
             </tr>
             <tr>
-                <td><a href='#a1'>Chinese rover Zhurong lands on mars</a></td>
+                <td><a href='#' onclick="change('a1')">Chinese rover Zhurong lands on mars</a></td>
             </tr>
             <tr>
-                <td><a href='#a2'>Comparing Covid-19 vaccines</a></td>
+                <td><a href='#' onclick="change('a2')">Comparing Covid-19 vaccines</a></td>
+            </tr>
+            <tr>
+                <td><a href='#' onclick="change('a3')" >Floods wreak havoc across the world</a></td>
             </tr>
             </table>
+        <article id='mainframe'> 
+            <!--  container for all other article elements-->
+        </article>
         <article id ='a1'>
             <h1>China's 1st Mars rover 'Zhurong' lands on the Red Planet</h1>
             <figure align='center'>
@@ -240,6 +246,70 @@
 
         </article>
         <br>
+
+        
+        <article id='a3'>
+                <h1>From China to Germany, floods wreak havoc across the world</h1>
+                <figure align='center'>
+                    <img src='images/AP21201493501071_1200x768.webp' alt='flooding in China' width=60% height=350px>
+    
+                    <figcaption>
+                        Heavy flooding has hit central China following unusually heavy rains, with the subway system in the city of Zhengzhou inundated with 
+                        rushing water and thousands of residents having to be relocated
+                    </figcaption>
+                </figure>
+
+
+                <p>Deadly floods that have upended life in both China and Germany have sent a stark reminder that climate change is making weather more extreme across the globe.
+                The death toll in central China's unprecedented flash floods triggered after the heaviest rainfall in 1,000 years has reached 33 with eight people missing, officials told PTI on Thursday. 
+                Videos posted on Chinese social media showed petrified passengers trapped in subway trains clinging on to handlebars desperately waiting for help as floodwaters raised up to their necks.
+                In Europe, climate change is likely to increase the number of large, slow-moving storms that can linger longer in one area and deliver deluges of the kind seen in Germany and Belgium, according to a study published in the journal Geophysical Research Letters.
+                Torrential rain turned normally placid rivers into raging torrents in parts of Germany, Belgium and the Netherlands, dragging cars and roads with them, bringing down whole houses and leaving more than 150 people dead.
+                As the southwest monsoon continues to elude parts of India, it is wreaking havoc in parts of Himachal Pradesh and Uttarakhand.
+                </p>
+
+                <h2>Are the floods linked to the climate crisis</h2>
+
+                <p>Almost certainly. Scientists have long predicted climate disruption will lead to more extreme weather, 
+                such as heatwaves, droughts and floods. Human emissions from engine exhaust fumes, forest burning and other activities are heating the planet. 
+                As the atmosphere gets warmer it holds more moisture which brings more rain. All the places that recently experienced flooding – Germany, Belgium, 
+                the Netherlands, London, Edinburgh, Tokyo and elsewhere – might have had heavy summer rain even without the climate crisis, but the deluges were unlikely to have been as intense.</p>
+
+                <h2>But there have always been floods and heatwaves. What is the evidence that humans are making them worse?</h2>
+
+                <p>
+                    First, more records are being broken more often; the world’s seven hottest years in recorded history have all come since 2014. Second, scientists can now use statistical analysis and computer models to calculate how much more 
+                    likely particular weather events have become as a result of the extra stress that humans have put on the climate system. For example, human emissions made the deadly “heat dome” in Canada and North America
+                     last month at least 150 times more likely and the prolonged heatwave in Siberia last year more than 600 times more probable.
+                    Richard Betts, the head of climate impacts research at the Met Office Hadley Centre, says such calculations take away the argument that “extreme weather happens anyway, so we don’t need to worry about it”. 
+                    There has not yet been an attribution study for the latest floods in Europe because the analysis takes several days.
+                </p>
+
+                <h2>U.N. climate panel confronts implausibly hot forecasts of future warming</h2>
+
+                <figure align='center'>
+                    <img src='images/climate.jpg' alt='orbit trajectory' width=60%/>
+                    <figcaption>
+                        The UN global climate action logo
+                    </figcaption>
+                </figure>
+
+                <p>
+                    Next month, after a yearlong delay because of the pandemic, the U.N. Intergovernmental Panel on Climate Change (IPCC) will begin to release its first major assessment of human-caused global warming since 2013. The report, the first part of which will appear on 9 August, 
+                    will drop on a world that has starkly changed in 8 years, warming by more than 0.3°C to nearly 1.3°C above preindustrial levels. Weather has grown more severe, seas are measurably higher, and mountain glaciers and polar ice have shrunk sharply. And after years of limited action, 
+                    many countries, pushed by a concerned public and corporations, seem willing to curb their carbon emissions.<br><br>
+                    But as climate scientists face this alarming reality, the climate models that help them project the future have grown a little too alarmist. Many of the world’s leading models are now projecting warming rates that most scientists, 
+                    including the modelmakers themselves, believe are implausibly fast. In advance of the U.N. report, scientists have scrambled to understand what went wrong and how to turn the models, which in other respects are more powerful and trustworthy than their predecessors, into useful guidance for policymakers. “It’s become clear over the last year or so that we can’t avoid this,” says Gavin Schmidt, director of NASA’s Goddard Institute for Space Studies.
+                    <br><br>Ahead of each major IPCC report, the world’s climate modeling centers run a set of scenarios for the future, calculating how different global emissions paths will alter the climate. These raw results, compiled in the Coupled Model Intercomparison Project (CMIP), 
+                    then feed directly into the IPCC report. The results live on as other scientists use them to assess the impacts of climate change, insurance companies and financial institutions forecast effects on economies and infrastructure, and economists calculate the true cost of carbon emissions, says Jean-François Lamarque, a lead climate modeler at the National Center for Atmospheric Research (NCAR) and CMIP’s new director. “This is not an ivory tower type of exercise.”
+                </p>
+
+
+        
+        
+        
+        </article>
+        
 
         <footer>
             <div class="footer">
