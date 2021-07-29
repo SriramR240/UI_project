@@ -6,6 +6,7 @@ nav
     margin:0px auto 0px auto;
     text-align:center;
     
+    
 }
 nav li
 {
@@ -15,9 +16,12 @@ nav li
     font-size:20px;
     text-transform:uppercase;
     color:white;
+    font-family:sans-serif;
+
+    
 
 }
-#title{
+#title,#title2{
     
     position: absolute;
     margin:0px auto 0px auto;
@@ -29,7 +33,8 @@ nav li
     font-weight: bold;
     font-style:italic;
     color:white;
-    text-shadow:3px 3px black;;
+    text-shadow:3px 3px black;
+    font-family:serif;
     
 }
 a{
@@ -48,12 +53,12 @@ a:active{
 }
 
 .footer{
-    bottom: 0px;   
+     
     color: white;
     width: 100%;
     background: rgb(17, 17, 17);
     display: flex;
-    position: relative;
+    
 }
 footer .box{
     flex-basis: 50%;
@@ -94,7 +99,9 @@ footer hr{
     margin-top: 10px;
     color: white;
     font-size: 20px;
+
 }   
+
 .right form button{
     height: 45px;
     margin-top: 10px;
@@ -117,4 +124,9 @@ footer hr{
     background: rgba(255, 0, 0,1);
     position: relative;
 }
+
+.btn{
+    width:300px;
+}
+
 
