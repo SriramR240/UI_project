@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -7,7 +6,9 @@
         <link href='G13_indexa.css' rel='stylesheet' type='text/css' />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href='602.css' rel='stylesheet' type='text/css' />
+        <link href='comment.css' rel='stylesheet' type='text/css' />
         <script src="script.js"></script>
+ 
     </head>
     <body>
         <header height=160px>
@@ -20,7 +21,7 @@
 
                 <ul>
                     <li> <a href="G13_index.html">Home </a> </li>
-                    <li> <a href="601.html">Politics</a></li>
+                    <li> <a href="politics/learning.html">Politics</a></li>
                     <li> <a id="current" href="#">Business </a> </li>
                     <li> <a href="603.html">Science </a> </li>
                     <li> <a href="604.html">Entertainment</a> </li>
@@ -273,7 +274,7 @@
                     <img src="images/dogecoin.png" alt="Dogecoin YTD Graph" class="img">
                 </figure>
                 <p>The rise of dogecoin, which was started purely as a joke before gaining wider popularity with the help of Musk, could also have hurt the overall credibility of the crypto market. Some of the moves in the smaller, less-developed coins suggest that the crypto bull market was tied to the rise of speculative day trading in stocks instead of the increased institutional interest.</p>
-                <p>Other less serious cryptocurrencies have also seen increased interest in recent weeks. On Monday, Barstool Sports founder Dave Portnoy announced that he purchased $40,000 of a cryptocurrency called safemoon, which he described as a <em>“s---coin”</em>.</p>
+               ca <p>Other less serious cryptocurrencies have also seen increased interest in recent weeks. On Monday, Barstool Sports founder Dave Portnoy announced that he purchased $40,000 of a cryptocurrency called safemoon, which he described as a <em>“s---coin”</em>.</p>
 
                 <blockquote><em>“It’s early. If it is a Ponzi, get in on the ground floor,”</em>-Portnoy said in a video posted on Twitter</blockquote>
 
@@ -287,8 +288,22 @@
                 </div><br>
 
             </article>
- 
         </div>
+
+
+        <section id="commment">
+        <h2>&emsp;&emsp;&emsp; Comments</h2>
+        <hr width="80%">
+        <ul class="list"></ul>
+        <div class="container">
+        <input type="text" placeholder="Enter your name" id="name">
+        <input type="text" aria-rowcount="5" placeholder=" Enter comment" id="Message"> 
+        <button onclick="add()">Post Comment</button>
+        <button onclick="location.reload()">Clear</button>
+        </div>
+        <br>
+        </section>
+
 
         <footer>
             <div class="footer">
@@ -313,7 +328,7 @@
                     <h2>Useful Links</h2><hr>
                     <ul type="none">
                         <li> <a href="G13_index.html">Home </a> </li>
-                        <li> <a href="601.html">Politics</a></li>
+                        <li> <a href="politics/learning.html">Politics</a></li>
                         <li> <a href="602.html">Business </a> </li>
                         <li> <a href="603.html">Science </a> </li>
                         <li> <a href="604.html">Entertainment</a> </li>
@@ -323,6 +338,7 @@
                </div>
                <div class="right box">
                    <h2>Subscribe to our Newsletter</h2><hr>
+
                    <form onsubmit="return alpha(document.getElementById('username2'),document.getElementById('email2'),2)">
                     <div>Name *</div>
                     <div class="ipt">
@@ -344,4 +360,5 @@
 
         </footer>
     </body>
+    <script src="comment.js"></script>
 </html> 

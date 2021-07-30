@@ -1,0 +1,37 @@
+<h3><Strong>Biden Urges Congress To Act On Gun Violence After San Jose Mass Shooting</Strong></h3>
+        <figure>
+            <img src="biden.jpg">
+            <figcaption>
+                Biden reacts to San Jose mass shooting
+            </figcaption>
+        </figure>
+        <p>
+            Wednesday’s mass shooting in San Jose, California, is a grim reminder of the need for Congress to take action on America’s gun violence epidemic, President Joe Biden said in the hours after the ordeal.<br>
+            “Every life that is taken by a bullet pierces the soul of our nation. We can, and we must, do more,” Biden said in a statement.<br>
+             A lone gunman opened fire Wednesday morning at a rail yard serving Santa Clara County and killed eight people. The gunman, an employee of the Valley Transportation Authority, was among the dead, authorities said. 
+        </p>
+        <h3><Strong>Boris Johnson Wanted Coronavirus Injected In His Arm On TV To Reassure UK: Ex-Aide</Strong></h3>
+        <figure>
+            <img src="boris.jpg">
+            <figcaption>
+                Boris fears Infection
+            </figcaption>
+        </figure>
+        <p>
+            In February 2020, a month before the virus was declared a pandemic and Britain imposed its first lockdown, Johnson dismissed COVID-19 as “the new swine flu,” Dominic Cummings told lawmakers.<br>
+            “The prime minister regarded this as just a scare story,” Cummings said in testimony that blasted the government’s response to the pandemic. He added that Johnson’s aides viewed the prime minister’s attitude as, “It’s swine flu, don’t worry about it.<br>
+             I’m gonna get (Chief Medical Officer) Chris Whitty to inject me live on TV with coronavirus ― then everyone realizes it’s nothing to be frightened of.”“That would not help actual serious planning,” Cummings added.<br>
+             It wasn’t clear whether Johnson may have made his comments in jest.But the postscript was certainly no joke. The month after Johnson made the dismissive remarks, he contracted COVID-19 (unintentionally) and nearly died.
+        </p>
+        <h3><Strong>How Putin's Russia turned humour into a weapon</Strong></h3>
+        <figure>
+            <img src="putin.jpg">
+            <figcaption>
+                Putins strategy of turning humour into a weapon
+            </figcaption>
+        </figure>
+        <p>
+            Humour and ridicule were a key part of Moscow's response when the UK said it was "highly likely" that Russia was behind the poisoning of former spy Sergei Skripal and his daughter, Yulia, in Salisbury.<br>
+            Russian officials and media figures have since tried to turn the English phrase "highly likely" into a mocking catchphrase that implies Russia is being blamed for everything with the flimsiest of evidence.<br>
+            They have enlisted a range of popular figures from English literature, such as Agatha Christie's Hercule Poirot and Conan Doyle's Sherlock Holmes, to ridicule British allegations of Russian involvement in the poisoning which they denounce as unfounded.
+        </p>
