@@ -31,9 +31,15 @@ function alpha(inputtxt,inputemail,option)
     }
 
 
+
+
 function change(x)
 {
-    console.log("hello");
     document.getElementById('mainframe').innerHTML=document.getElementById(x).innerHTML;
     
+}
+
+function loading()
+{
+    document.getElementById('mainframe').innerHTML=document.getElementById('a1').innerHTML;
 }
